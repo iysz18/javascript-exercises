@@ -6,6 +6,7 @@ const leapYears = function(year) {
     // else if (year % 4 === 0) return true;
     // else return false;
 
+    // a more cleanup solution
     return (year % 4 === 0) && ((year % 100 !== 0) || (year % 400 === 0));
 };
 
